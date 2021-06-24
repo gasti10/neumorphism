@@ -8,7 +8,6 @@ description: Personal website powered by Jekyll
 # baseurl: The subpath of your site
 # > set this to "", if you renamed the repository to <user>.github.io
 baseurl: ""
-url: "/gjouglard" # the base hostname & protocol for your site, e.g. http://example.com
 
 # LANDING PAGE
 # username: This will displayed on the landing page as your name.
@@ -116,11 +115,6 @@ google-analytics:
 
 plugins:
   - "jekyll-github-metadata"
-
-# Important settings
-assets:
-  sources:
-    - assets/img
 
 exclude:
   [
