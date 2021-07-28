@@ -9,6 +9,10 @@ description: Personal website powered by Jekyll
 # > set this to "", if you renamed the repository to <user>.github.io
 baseurl: ""
 
+#repository use in github-metadata
+repository: gasti10/neumorphism
+
+
 # LANDING PAGE
 # username: This will displayed on the landing page as your name.
 username: Gaston Jouglard
@@ -125,5 +129,8 @@ exclude:
     "node_modules",
     "package.json",
   ]
+
+  include:
+  - assets
 
 theme: jekyll-theme-slate
