@@ -1,7 +1,7 @@
 {
   "particles": {
     "number": {
-      "value": 80,
+      "value": 10,
       "density": {
         "enable": true,
         "value_area": 800
@@ -11,13 +11,13 @@
       "value": ["#dc052d"]
     },
     "shape": {
-      "type": "circle",
+      "type": "polygon",
       "stroke": {
         "width": 0,
         "color": "#000000"
       },
       "polygon": {
-        "nb_sides": 5
+        "nb_sides": 4
       }
     },
     "opacity": {
@@ -31,29 +31,26 @@
       }
     },
     "size": {
-      "value": 3,
+      "value": 15,
       "random": true,
       "anim": {
-        "enable": true,
-        "speed": 50,
+        "enable": false,
+        "speed": 4,
         "size_min": 1,
         "sync": false
       }
     },
     "line_linked": {
-      "enable_auto": true,
-      "distance": 200,
-      "color": ["#ffffff"],
-      "opacity": 0.4,
-      "width": 1
+      "enable": false
     },
     "move": {
       "enable": true,
       "speed": 1,
-      "direction": "none",
+      "direction": "bottom",
       "random": true,
       "straight": false,
       "out_mode": "out",
+      "bounce": false,
       "attract": {
         "enable": false,
         "rotateX": 1200,
@@ -65,40 +62,14 @@
     "detect_on": "canvas",
     "events": {
       "onhover": {
-        "enable": true,
-        "mode": "repulse"
+        "enable": false
       },
       "onclick": {
         "enable": true,
-        "mode": "push"
+        "mode": "repulse"
       },
       "resize": true
     },
-    "modes": {
-      "grab": {
-        "distance": 400,
-        "line_linked": {
-          "opacity": 1
-        }
-      },
-      "bubble": {
-        "distance": 400,
-        "size": 40,
-        "duration": 3.491932012895784,
-        "opacity": 8,
-        "speed": 3
-      },
-      "repulse": {
-        "distance": 200,
-        "duration": 0.4
-      },
-      "push": {
-        "particles_nb": 4
-      },
-      "remove": {
-        "particles_nb": 2
-      }
-    }
-  },
-  "retina_detect": true
+    "retina_detect": true
+  }
 }
