@@ -1,7 +1,7 @@
 {
   "particles": {
     "number": {
-      "value": 10,
+      "value": 80,
       "density": {
         "enable": true,
         "value_area": 800
@@ -11,13 +11,13 @@
       "value": ["#dc052d"]
     },
     "shape": {
-      "type": "polygon",
+      "type": "circle",
       "stroke": {
         "width": 0,
         "color": "#000000"
       },
       "polygon": {
-        "nb_sides": 4
+        "nb_sides": 5
       }
     },
     "opacity": {
@@ -34,23 +34,25 @@
       "value": 15,
       "random": true,
       "anim": {
-        "enable": false,
-        "speed": 4,
+        "enable": true,
+        "speed": 50,
         "size_min": 1,
         "sync": false
       }
     },
     "line_linked": {
-      "enable": false
+      "enable_auto": true,
+      "distance": 200,
+      "color": ["#ffffff"]
+
     },
     "move": {
       "enable": true,
       "speed": 1,
-      "direction": "bottom",
+      "direction": "none",
       "random": true,
       "straight": false,
-      "out_mode": "out",
-      "bounce": false,
+      "out_mode": "bounce",
       "attract": {
         "enable": false,
         "rotateX": 1200,
@@ -62,11 +64,12 @@
     "detect_on": "canvas",
     "events": {
       "onhover": {
-        "enable": false
+        "enable": true,
+        "mode": "grab"
       },
       "onclick": {
         "enable": true,
-        "mode": "repulse"
+        "mode": "push"
       },
       "resize": true
     },
