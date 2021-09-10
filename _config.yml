@@ -115,6 +115,7 @@ google-analytics:
 
 plugins:
   - "jekyll-github-metadata"
+  - "jekyll-relative-links"
 
 exclude:
   [
@@ -124,5 +125,3 @@ exclude:
     "node_modules",
     "package.json",
   ]
-
-theme: jekyll-theme-slate
