@@ -85,7 +85,7 @@ contact_description: Contact me by the way you prefer :)
 # GITHUB-METADATA
 # Set this to your forked repository
 # > e.g. <user>/<user>.github.io
-repository: gasti10/neumorphism
+repository: gasti10/gasti10.github.io
 projects:
   # sortby:
   # > set this to pushed, if you want to sort your github repositories by time.
@@ -118,7 +118,6 @@ plugins:
 
 exclude:
   [
-    "_assets",
     "Gemfile",
     "Gemfile.lock",
     "gulpfile.js",
