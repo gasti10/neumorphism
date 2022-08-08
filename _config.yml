@@ -119,10 +119,10 @@ google-analytics:
 
 plugins:
   - "jekyll-github-metadata"
+  - "jekyll-relative-links"
 
 exclude:
   [
-    "_assets",
     "Gemfile",
     "Gemfile.lock",
     "gulpfile.js",
@@ -130,7 +130,7 @@ exclude:
     "package.json",
   ]
 
-  include:
+include:
   - assets
 
 theme: jekyll-theme-slate
